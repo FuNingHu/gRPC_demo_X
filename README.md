@@ -3,7 +3,8 @@
 
 This project is a template example of a URCap Contribution containing a Docker backend and a Web frontend
 # **System overview**:
-![image](https://github.com/user-attachments/assets/d0de6e1a-b598-4d47-8518-08fcef1e9e01)
+![image](https://github.com/user-attachments/assets/9f67ac99-a260-4f15-a802-e80ff3435a5b)
+
 
 
 ### Installation
