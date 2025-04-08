@@ -1,0 +1,21 @@
+{
+  "applicationNodes": [
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "grpc-demo-application.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "funh-grpc-demo-grpc-demo-application"
+    }
+  ],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/grpc-demo-program.svg",
+      "behaviorURI": "grpc-demo-program.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "funh-grpc-demo-grpc-demo-program"
+    }
+  ],
+  "smartSkills": []
+}

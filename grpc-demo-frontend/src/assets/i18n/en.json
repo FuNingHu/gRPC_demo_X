@@ -1,0 +1,17 @@
+{
+  "program": {
+    "tree": {
+      "nodes": {
+        "funh-grpc-demo-grpc-demo-program": "Grpc Demo Program"
+      }
+    }
+  },
+  "application": {
+    "nodes": {
+      "funh-grpc-demo-grpc-demo-application": {
+        "title": "Grpc Demo Application",
+        "supportiveText": "Grpc Demo Application - Supportive Text"
+      }
+    }
+  }
+}
