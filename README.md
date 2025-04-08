@@ -77,4 +77,8 @@ a typical hello.proto script is like below:
         rpc SayHello (HelloRequest) returns (HelloReply);
       }
 
+The calling to gRPC service is build in Application node component.ts ngOnChange methode, so everytime opening <Grpc Demo Application> page will call the gRPC service and print the response in your browser's console (pressing F12 will open that window), like below:
+![image](https://github.com/user-attachments/assets/3efa9bc1-d581-4d30-9b37-927a7cef611c)
+
+
 >>>>>>> 28f25dac41277912dcdc09fbae696bf8c715746f
