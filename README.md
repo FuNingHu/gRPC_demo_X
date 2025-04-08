@@ -32,12 +32,12 @@ implementation with X SDK [0.15.59] and tested on URSIM [10.8.0-beta.1]
 
 to setup this demo, you will need an IDE running gRPC server python on host machine(in this project case) or in another remote controller(with specific IP address). 
 the example gRPC server.py is like below:
+      
+      
       import grpc
       from concurrent import futures
       import hello_pb2
       import hello_pb2_grpc
-      
-      
       class Greeter(hello_pb2_grpc.GreeterServicer):
           def SayHello(self, request, context):
               return hello_pb2.HelloReply(message='Hello, %s!' % request.name)
@@ -57,8 +57,8 @@ the example gRPC server.py is like below:
 
 in addition: it should be the same hello_pb2.py, and hello_pb2_grpc.py in both server & client folder.
 a typical hello.proto script is like below:
-      syntax = "proto3";
       
+      syntax = "proto3";
       package helloworld;
       
       // 定义请求消息 //define request message
